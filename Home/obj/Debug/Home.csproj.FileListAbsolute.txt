@@ -1,0 +1,85 @@
+c:\users\immortel\documents\visual studio 2015\Projects\Hopital\Home\bin\Debug\Home.exe.config
+c:\users\immortel\documents\visual studio 2015\Projects\Hopital\Home\bin\Debug\Home.exe
+c:\users\immortel\documents\visual studio 2015\Projects\Hopital\Home\bin\Debug\Home.pdb
+c:\users\immortel\documents\visual studio 2015\Projects\Hopital\Home\obj\Debug\Home.csprojResolveAssemblyReference.cache
+c:\users\immortel\documents\visual studio 2015\Projects\Hopital\Home\obj\Debug\Home.Form1.resources
+c:\users\immortel\documents\visual studio 2015\Projects\Hopital\Home\obj\Debug\Home.Properties.Resources.resources
+c:\users\immortel\documents\visual studio 2015\Projects\Hopital\Home\obj\Debug\Home.csproj.GenerateResource.Cache
+c:\users\immortel\documents\visual studio 2015\Projects\Hopital\Home\obj\Debug\Home.exe
+c:\users\immortel\documents\visual studio 2015\Projects\Hopital\Home\obj\Debug\Home.pdb
+C:\Users\armsu\3D Objects\Hopital\Home\bin\Debug\Home.exe.config
+C:\Users\armsu\3D Objects\Hopital\Home\bin\Debug\Home.exe
+C:\Users\armsu\3D Objects\Hopital\Home\bin\Debug\Home.pdb
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.csprojAssemblyReference.cache
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.Home.resources
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.Properties.Resources.resources
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.csproj.GenerateResource.cache
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.csproj.CoreCompileInputs.cache
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.exe
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.pdb
+C:\Users\armsu\3D Objects\Hopital\Home\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\armsu\3D Objects\Hopital\Home\bin\Debug\Guna.UI.dll
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.csproj.CopyComplete
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.dialogues.Addpatient.resources
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.userControl.patient.resources
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.userControl.consulta.resources
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.userControl.laboratoire.resources
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.userControl.aptitude.resources
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.userControl.Deces.resources
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.userControl.Ecographie.resources
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.userControl.prescription.resources
+C:\Users\armsu\3D Objects\Hopital\Home\bin\Debug\MySql.Data.dll
+C:\Users\armsu\3D Objects\Hopital\Home\bin\Debug\MySqlConnector.dll
+C:\Users\armsu\3D Objects\Hopital\Home\bin\Debug\System.Buffers.dll
+C:\Users\armsu\3D Objects\Hopital\Home\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\armsu\3D Objects\Hopital\Home\bin\Debug\System.Memory.dll
+C:\Users\armsu\3D Objects\Hopital\Home\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\armsu\3D Objects\Hopital\Home\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\armsu\3D Objects\Hopital\Home\bin\Debug\MySqlConnector.xml
+C:\Users\armsu\3D Objects\Hopital\Home\bin\Debug\System.Buffers.xml
+C:\Users\armsu\3D Objects\Hopital\Home\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\armsu\3D Objects\Hopital\Home\bin\Debug\System.Memory.xml
+C:\Users\armsu\3D Objects\Hopital\Home\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\armsu\3D Objects\Hopital\Home\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.userControl.Imagerie.resources
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.userControl.Note.resources
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.userControl.naissance.resources
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.userControl.attestation.resources
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.userControl.reference.resources
+C:\Users\armsu\3D Objects\Hopital\Home\obj\Debug\Home.dialogues.echo.resources
+E:\Hopital\Home\bin\Debug\Home.exe.config
+E:\Hopital\Home\obj\Debug\Home.exe
+E:\Hopital\Home\obj\Debug\Home.pdb
+E:\Hopital\Home\bin\Debug\Home.exe
+E:\Hopital\Home\bin\Debug\Home.pdb
+E:\Hopital\Home\bin\Debug\MySql.Data.dll
+E:\Hopital\Home\bin\Debug\MySqlConnector.dll
+E:\Hopital\Home\bin\Debug\System.Buffers.dll
+E:\Hopital\Home\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Hopital\Home\bin\Debug\System.Memory.dll
+E:\Hopital\Home\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Hopital\Home\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Hopital\Home\bin\Debug\MySqlConnector.xml
+E:\Hopital\Home\bin\Debug\System.Buffers.xml
+E:\Hopital\Home\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Hopital\Home\bin\Debug\System.Memory.xml
+E:\Hopital\Home\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Hopital\Home\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Hopital\Home\obj\Debug\Home.csprojResolveAssemblyReference.cache
+E:\Hopital\Home\obj\Debug\Home.dialogues.Addpatient.resources
+E:\Hopital\Home\obj\Debug\Home.dialogues.echo.resources
+E:\Hopital\Home\obj\Debug\Home.userControl.aptitude.resources
+E:\Hopital\Home\obj\Debug\Home.userControl.attestation.resources
+E:\Hopital\Home\obj\Debug\Home.userControl.consulta.resources
+E:\Hopital\Home\obj\Debug\Home.Home.resources
+E:\Hopital\Home\obj\Debug\Home.Properties.Resources.resources
+E:\Hopital\Home\obj\Debug\Home.userControl.Deces.resources
+E:\Hopital\Home\obj\Debug\Home.userControl.Ecographie.resources
+E:\Hopital\Home\obj\Debug\Home.userControl.Imagerie.resources
+E:\Hopital\Home\obj\Debug\Home.userControl.laboratoire.resources
+E:\Hopital\Home\obj\Debug\Home.userControl.naissance.resources
+E:\Hopital\Home\obj\Debug\Home.userControl.Note.resources
+E:\Hopital\Home\obj\Debug\Home.userControl.patient.resources
+E:\Hopital\Home\obj\Debug\Home.userControl.prescription.resources
+E:\Hopital\Home\obj\Debug\Home.userControl.reference.resources
+E:\Hopital\Home\obj\Debug\Home.csproj.GenerateResource.Cache
