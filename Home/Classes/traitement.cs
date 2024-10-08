@@ -854,5 +854,125 @@ namespace Home.Classes
                 med.Text = ro.Cells[10].Value.ToString();
             }
         }
+        //Insertion Medecin
+        public void insertAgent(Control nom, Control post, Control date, Control adresse, Control quartier, Control commune, Control vill, Control num, Control pays, Control tel, Control mail, Control prestation, Control debutContat, Control finContrat, Control poste, Control departemnt, Control managerservice, Control etatcivil, Control sexe, Control datenaiss, Control contact1, Control relation1, Control addrs1, Control ville, Control quart1, Control aven1, Control num1, Control tel1, Control contact2, Control relation2, Control addrs2, Control ville2, Control quart2, Control aven2, Control num2, Control tel2, Control niveuEtude, Control filiere, Control ecoleSecondaire, Control cycle1, Control cycle2, Control cycle3, Control anneloisir, string sql, DataGridView d, String mess, String messE)
+        {
+            try
+            {
+                connect();
+                con.Open();
+                cmd = new MySqlCommand("CALL p_medecin @id,@nom,@post,@adresse,@quartier,@num,@commune,@vill,@pays,@tel,@mail,@prest,@debutContat,@fin,@poste,@departement,@manager,@etatcivil,@sexe,@date,@contact1, @relation1,@addrs1,@ville,@quart1,@aven1,@num1,@tel1,@contact2,@relation2,@addrs2,@ville2,@quart2,@aven2,@num2,@tel2,@niveuEtude,@filiere,@ecoleSecondaire,@cycle1,@cycle2,@cycle3,@anneloisir", con);
+                cmd.Parameters.AddWithValue("id", id);
+                cmd.Parameters.AddWithValue("nom", nom.Text);
+                cmd.Parameters.AddWithValue("post", post.Text);
+                cmd.Parameters.AddWithValue("adresse", adresse.Text);
+                cmd.Parameters.AddWithValue("quartier", quartier.Text);
+                cmd.Parameters.AddWithValue("num", num.Text);
+                cmd.Parameters.AddWithValue("commune", commune.Text);
+                cmd.Parameters.AddWithValue("vill", vill.Text);
+                cmd.Parameters.AddWithValue("pays", pays.Text);
+                cmd.Parameters.AddWithValue("tel", tel.Text);
+                cmd.Parameters.AddWithValue("mail", mail.Text.ToLower());
+                cmd.Parameters.AddWithValue("prest", prestation.Text);
+                cmd.Parameters.AddWithValue("debutContat", debutContat.Text);
+                cmd.Parameters.AddWithValue("fin", finContrat.Text);
+                cmd.Parameters.AddWithValue("poste", poste.Text);
+                cmd.Parameters.AddWithValue("departement", departemnt.Text);
+                cmd.Parameters.AddWithValue("manager", managerservice.Text);
+                cmd.Parameters.AddWithValue("etatcivil", etatcivil.Text);
+                cmd.Parameters.AddWithValue("sexe", sexe.Text);
+                cmd.Parameters.AddWithValue("date", DateTime.Parse(date.Text));
+                cmd.Parameters.AddWithValue("contact1", contact1.Text);
+                cmd.Parameters.AddWithValue("relation1", relation1.Text);
+                cmd.Parameters.AddWithValue("addrs1", addrs1.Text);
+                cmd.Parameters.AddWithValue("ville", ville.Text);
+                cmd.Parameters.AddWithValue("quart1", quart1.Text);
+                cmd.Parameters.AddWithValue("aven1", aven1.Text);
+                cmd.Parameters.AddWithValue("num1", num1.Text);
+                cmd.Parameters.AddWithValue("tel1", tel1.Text);
+                cmd.Parameters.AddWithValue("contact2", contact2.Text);
+                cmd.Parameters.AddWithValue("relation2", relation2.Text);
+                cmd.Parameters.AddWithValue("addrs2", addrs2.Text);
+                cmd.Parameters.AddWithValue("ville2", ville2.Text);
+                cmd.Parameters.AddWithValue("quart2", quart2.Text);
+                cmd.Parameters.AddWithValue("aven2", aven2.Text);
+                cmd.Parameters.AddWithValue("num2", num2.Text);
+                cmd.Parameters.AddWithValue("tel2", tel2.Text);
+                cmd.Parameters.AddWithValue("niveuEtude", niveuEtude.Text);
+                cmd.Parameters.AddWithValue("filiere", filiere.Text);
+                cmd.Parameters.AddWithValue("ecoleSecondaire", ecoleSecondaire.Text);
+                cmd.Parameters.AddWithValue("cycle1", cycle1.Text);
+                cmd.Parameters.AddWithValue("cycle2", cycle2.Text);
+                cmd.Parameters.AddWithValue("cycle3", cycle3.Text);
+                cmd.Parameters.AddWithValue("anneloisir", anneloisir.Text);
+                cmd.ExecuteNonQuery();
+                con.Close();
+                MessageBox.Show(mess);
+                effacer(num, nom, tel, tel1, tel2, quart1, quart2, quartier, aven1, aven2, num1, num2, commune, ville, ville2, sexe, mail, addrs1, addrs2, adresse, debutContat, finContrat, prestation, poste, post, pays, departemnt, managerservice, niveuEtude, etatcivil, sexe, filiere, cycle1, cycle2, cycle3, anneloisir, ecoleSecondaire);
+                chargementdatagrid(d, sql);
+                id = 0;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(messE + " " + e.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        //deplacement medecin
+        public void deplmedecin(int code, DataGridViewCellEventArgs e, DataGridView dt, Control nom, Control post, Control date, Control adresse, Control quartier, Control commune, Control vill, Control num, Control pays, Control tel, Control mail, Control prestation, Control debutContat, Control finContrat, Control poste, Control departemnt, Control managerservice, Control etatcivil, Control sexe, Control datenaiss, Control contact1, Control relation1, Control addrs1, Control ville, Control quart1, Control aven1, Control num1, Control tel1, Control contact2, Control relation2, Control addrs2, Control ville2, Control quart2, Control aven2, Control num2, Control tel2, Control niveuEtude, Control filiere, Control ecoleSecondaire, Control cycle1, Control cycle2, Control cycle3, Control anneloisir)
+        {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow ro = dt.Rows[e.RowIndex];
+                id = Convert.ToInt16(ro.Cells[0].Value.ToString());
+                nom.Text = ro.Cells[1].Value.ToString();
+                post.Text = ro.Cells[2].Value.ToString();
+                adresse.Text = ro.Cells[3].Value.ToString();
+                quartier.Text = ro.Cells[4].Value.ToString();
+                num.Text = ro.Cells[5].Value.ToString();
+                commune.Text = ro.Cells[6].Value.ToString();
+                vill.Text = ro.Cells[7].Value.ToString();
+                pays.Text = ro.Cells[8].Value.ToString();
+                tel.Text = ro.Cells[9].Value.ToString();
+                mail.Text = ro.Cells[10].Value.ToString();
+                prestation.Text = ro.Cells[11].Value.ToString();
+                debutContat.Text = ro.Cells[12].Value.ToString();
+                finContrat.Text = ro.Cells[13].Value.ToString();
+                poste.Text = ro.Cells[14].Value.ToString();
+                departemnt.Text = ro.Cells[15].Value.ToString();
+                managerservice.Text = ro.Cells[16].Value.ToString();
+                etatcivil.Text = ro.Cells[17].Value.ToString();
+                sexe.Text = ro.Cells[18].Value.ToString();
+                datenaiss.Text = ro.Cells[19].Value.ToString();
+                contact1.Text = ro.Cells[20].Value.ToString();
+                relation1.Text = ro.Cells[21].Value.ToString();
+                addrs1.Text = ro.Cells[22].Value.ToString();
+                ville.Text = ro.Cells[23].Value.ToString();
+                quart1.Text = ro.Cells[24].Value.ToString();
+                aven1.Text = ro.Cells[25].Value.ToString();
+                num1.Text = ro.Cells[26].Value.ToString();
+                tel1.Text = ro.Cells[27].Value.ToString();
+                contact2.Text = ro.Cells[28].Value.ToString();
+                relation2.Text = ro.Cells[29].Value.ToString();
+                addrs1.Text = ro.Cells[30].Value.ToString();
+                ville2.Text = ro.Cells[31].Value.ToString();
+                quart2.Text = ro.Cells[32].Value.ToString();
+                aven2.Text = ro.Cells[33].Value.ToString();
+                num2.Text = ro.Cells[34].Value.ToString();
+                tel2.Text = ro.Cells[35].Value.ToString();
+                niveuEtude.Text = ro.Cells[36].Value.ToString();
+                filiere.Text = ro.Cells[37].Value.ToString();
+                ecoleSecondaire.Text = ro.Cells[38].Value.ToString();
+                cycle1.Text = ro.Cells[39].Value.ToString();
+                cycle2.Text = ro.Cells[40].Value.ToString();
+                cycle3.Text = ro.Cells[41].Value.ToString();
+                anneloisir.Text = ro.Cells[42].Value.ToString();
+                // filiere.Text = ro.Cells[4].Value.ToString();
+            }
+        }
     }
 }
