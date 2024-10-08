@@ -41,6 +41,7 @@ namespace Home
            finance.Visible = false;
             panel4.Visible = false;
             parametre.Visible = false;
+            Exa.Visible = false;
         }
         public void CacherMenu()
         {
@@ -56,6 +57,8 @@ namespace Home
                 finance.Visible = false;
             if (parametre.Visible == true)
                 parametre.Visible = false;
+            if (Exa.Visible == true)
+                Exa.Visible = false;
         }
         public void afficheMenu(Panel panel)
         {
@@ -161,7 +164,7 @@ namespace Home
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            traitement.getinstance().Appel(pan, new consulta());
+            traitement.getinstance().Appel(pan, new Medicament());
         }
 
         private void button4_Click_1(object sender, EventArgs e)
@@ -171,22 +174,112 @@ namespace Home
 
         private void button15_Click(object sender, EventArgs e)
         {
-            traitement.getinstance().Appel(pan, new laboratoire());
+            traitement.getinstance().Appel(pan, new aptitude());
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            traitement.getinstance().Appel(pan, new Imagerie());
+            traitement.getinstance().Appel(pan, new attestation());
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-            traitement.getinstance().Appel(pan, new Ecographie());
+            traitement.getinstance().Appel(pan, new naissance());
         }
 
         private void button7_Click_1(object sender, EventArgs e)
         {
             traitement.getinstance().Appel(pan, new Note());
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            traitement.getinstance().Appel(pan, new Ordonnance());
+        }
+
+        private void button24_Click_1(object sender, EventArgs e)
+        {
+            afficheMenu(finance);
+        }
+
+        private void button36_Click(object sender, EventArgs e)
+        {
+            afficheMenu(rendezvous);
+        }
+
+        private void button27_Click_1(object sender, EventArgs e)
+        {
+            afficheMenu(logistique);
+        }
+
+        private void button30_Click_1(object sender, EventArgs e)
+        {
+            afficheMenu(parametre);
+        }
+
+        private void button8_Click_1(object sender, EventArgs e)
+        {
+            afficheMenu(Exa);
+        }
+
+        private void button31_Click(object sender, EventArgs e)
+        {
+            traitement.getinstance().Appel(pan, new Deces());
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            traitement.getinstance().Appel(pan, new reference());
+        }
+
+        private void button37_Click(object sender, EventArgs e)
+        {
+            traitement.getinstance().Appel(pan, new Ecographie());
+        }
+
+        private void button39_Click(object sender, EventArgs e)
+        {
+            traitement.getinstance().Appel(pan, new Imagerie());
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            traitement.getinstance().Appel(pan, new consulta());
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            traitement.getinstance().Appel(pan, new laboratoire());
+        }
+
+        private void button40_Click(object sender, EventArgs e)
+        {
+            traitement.getinstance().Appel(pan, new reference());
+        }
+
+        private void button32_Click(object sender, EventArgs e)
+        {
+            traitement.getinstance().Appel(pan, new Examenprenuptiaux());
+        }
+
+        private void button38_Click(object sender, EventArgs e)
+        {
+            traitement.getinstance().Appel(pan, new Echostandard());
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            traitement.getinstance().Appel(pan, new Hospitalisation());
+        }
+
+        private void button41_Click(object sender, EventArgs e)
+        {
+            traitement.getinstance().Appel(pan, new Service());
+        }
+
+        private void button40_Click_1(object sender, EventArgs e)
+        {
+            traitement.getinstance().Appel(pan, new Suivie());
         }
     }
 }

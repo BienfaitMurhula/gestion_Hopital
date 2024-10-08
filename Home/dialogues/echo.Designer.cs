@@ -38,11 +38,10 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.o = new Guna.UI.WinForms.GunaTextBox();
-            this.n = new Guna.UI.WinForms.GunaTextBox();
-            this.k = new Guna.UI.WinForms.GunaTextBox();
-            this.m = new Guna.UI.WinForms.GunaComboBox();
-            this.j = new Guna.UI.WinForms.GunaTextBox();
+            this.placent = new Guna.UI.WinForms.GunaTextBox();
+            this.poids = new Guna.UI.WinForms.GunaTextBox();
+            this.fl = new Guna.UI.WinForms.GunaTextBox();
+            this.hc = new Guna.UI.WinForms.GunaTextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -54,16 +53,16 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.i = new Guna.UI.WinForms.GunaTextBox();
-            this.p = new Guna.UI.WinForms.GunaComboBox();
-            this.g = new Guna.UI.WinForms.GunaTextBox();
-            this.f = new Guna.UI.WinForms.GunaTextBox();
+            this.bip = new Guna.UI.WinForms.GunaTextBox();
+            this.sexe = new Guna.UI.WinForms.GunaComboBox();
+            this.gs = new Guna.UI.WinForms.GunaTextBox();
+            this.mrf = new Guna.UI.WinForms.GunaTextBox();
             this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
-            this.y = new Guna.UI.WinForms.GunaComboBox();
-            this.c = new Guna.UI.WinForms.GunaTextBox();
-            this.b = new Guna.UI.WinForms.GunaTextBox();
-            this.a = new Guna.UI.WinForms.GunaTextBox();
+            this.patient = new Guna.UI.WinForms.GunaComboBox();
+            this.morph = new Guna.UI.WinForms.GunaTextBox();
+            this.present = new Guna.UI.WinForms.GunaTextBox();
+            this.nombre = new Guna.UI.WinForms.GunaTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -73,18 +72,19 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
-            this.x = new Guna.UI.WinForms.GunaTextBox();
-            this.u = new Guna.UI.WinForms.GunaTextBox();
+            this.rendez = new Guna.UI.WinForms.GunaTextBox();
+            this.estimat = new Guna.UI.WinForms.GunaTextBox();
             this.v = new Guna.UI.WinForms.GunaDateTimePicker();
-            this.s = new Guna.UI.WinForms.GunaComboBox();
-            this.r = new Guna.UI.WinForms.GunaTextBox();
-            this.q = new Guna.UI.WinForms.GunaTextBox();
-            this.h = new Guna.UI.WinForms.GunaTextBox();
-            this.t = new Guna.UI.WinForms.GunaTextBox();
-            this.e = new Guna.UI.WinForms.GunaTextBox();
-            this.d = new Guna.UI.WinForms.GunaTextBox();
-            this.l = new Guna.UI.WinForms.GunaTextBox();
+            this.cordon = new Guna.UI.WinForms.GunaTextBox();
+            this.la = new Guna.UI.WinForms.GunaTextBox();
+            this.lec = new Guna.UI.WinForms.GunaTextBox();
+            this.autres = new Guna.UI.WinForms.GunaTextBox();
+            this.mfa = new Guna.UI.WinForms.GunaTextBox();
+            this.bcf = new Guna.UI.WinForms.GunaTextBox();
+            this.agesta = new Guna.UI.WinForms.GunaTextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.dpa = new Guna.UI.WinForms.GunaTextBox();
+            this.type = new Guna.UI.WinForms.GunaTextBox();
             this.SuspendLayout();
             // 
             // panel1
@@ -173,100 +173,77 @@
             this.label13.TabIndex = 67;
             this.label13.Text = "FL";
             // 
-            // o
+            // placent
             // 
-            this.o.BackColor = System.Drawing.Color.Transparent;
-            this.o.BaseColor = System.Drawing.Color.White;
-            this.o.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.o.BorderSize = 1;
-            this.o.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.o.FocusedBaseColor = System.Drawing.Color.White;
-            this.o.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.o.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.o.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.o.Location = new System.Drawing.Point(273, 439);
-            this.o.Name = "o";
-            this.o.PasswordChar = '\0';
-            this.o.Radius = 15;
-            this.o.Size = new System.Drawing.Size(240, 30);
-            this.o.TabIndex = 66;
+            this.placent.BackColor = System.Drawing.Color.Transparent;
+            this.placent.BaseColor = System.Drawing.Color.White;
+            this.placent.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.placent.BorderSize = 1;
+            this.placent.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.placent.FocusedBaseColor = System.Drawing.Color.White;
+            this.placent.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.placent.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.placent.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.placent.Location = new System.Drawing.Point(273, 439);
+            this.placent.Name = "placent";
+            this.placent.PasswordChar = '\0';
+            this.placent.Radius = 15;
+            this.placent.Size = new System.Drawing.Size(240, 30);
+            this.placent.TabIndex = 66;
             // 
-            // n
+            // poids
             // 
-            this.n.BackColor = System.Drawing.Color.Transparent;
-            this.n.BaseColor = System.Drawing.Color.White;
-            this.n.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.n.BorderSize = 1;
-            this.n.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.n.FocusedBaseColor = System.Drawing.Color.White;
-            this.n.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.n.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.n.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.n.Location = new System.Drawing.Point(273, 385);
-            this.n.Name = "n";
-            this.n.PasswordChar = '\0';
-            this.n.Radius = 15;
-            this.n.Size = new System.Drawing.Size(240, 30);
-            this.n.TabIndex = 65;
+            this.poids.BackColor = System.Drawing.Color.Transparent;
+            this.poids.BaseColor = System.Drawing.Color.White;
+            this.poids.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.poids.BorderSize = 1;
+            this.poids.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.poids.FocusedBaseColor = System.Drawing.Color.White;
+            this.poids.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.poids.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.poids.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.poids.Location = new System.Drawing.Point(273, 385);
+            this.poids.Name = "poids";
+            this.poids.PasswordChar = '\0';
+            this.poids.Radius = 15;
+            this.poids.Size = new System.Drawing.Size(240, 30);
+            this.poids.TabIndex = 65;
             // 
-            // k
+            // fl
             // 
-            this.k.BackColor = System.Drawing.Color.Transparent;
-            this.k.BaseColor = System.Drawing.Color.White;
-            this.k.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.k.BorderSize = 1;
-            this.k.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.k.FocusedBaseColor = System.Drawing.Color.White;
-            this.k.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.k.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.k.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.k.Location = new System.Drawing.Point(273, 229);
-            this.k.Name = "k";
-            this.k.PasswordChar = '\0';
-            this.k.Radius = 15;
-            this.k.Size = new System.Drawing.Size(240, 30);
-            this.k.TabIndex = 64;
+            this.fl.BackColor = System.Drawing.Color.Transparent;
+            this.fl.BaseColor = System.Drawing.Color.White;
+            this.fl.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.fl.BorderSize = 1;
+            this.fl.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.fl.FocusedBaseColor = System.Drawing.Color.White;
+            this.fl.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.fl.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.fl.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fl.Location = new System.Drawing.Point(273, 229);
+            this.fl.Name = "fl";
+            this.fl.PasswordChar = '\0';
+            this.fl.Radius = 15;
+            this.fl.Size = new System.Drawing.Size(240, 30);
+            this.fl.TabIndex = 64;
             // 
-            // m
+            // hc
             // 
-            this.m.BackColor = System.Drawing.Color.Transparent;
-            this.m.BaseColor = System.Drawing.Color.White;
-            this.m.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.m.BorderSize = 1;
-            this.m.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.m.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.m.FocusedColor = System.Drawing.Color.Empty;
-            this.m.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.m.ForeColor = System.Drawing.Color.Black;
-            this.m.FormattingEnabled = true;
-            this.m.Items.AddRange(new object[] {
-            "Feminin",
-            "Masculin"});
-            this.m.Location = new System.Drawing.Point(273, 334);
-            this.m.Name = "m";
-            this.m.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.m.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.m.Radius = 15;
-            this.m.Size = new System.Drawing.Size(240, 27);
-            this.m.TabIndex = 63;
-            // 
-            // j
-            // 
-            this.j.BackColor = System.Drawing.Color.Transparent;
-            this.j.BaseColor = System.Drawing.Color.White;
-            this.j.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.j.BorderSize = 1;
-            this.j.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.j.FocusedBaseColor = System.Drawing.Color.White;
-            this.j.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.j.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.j.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.j.Location = new System.Drawing.Point(273, 175);
-            this.j.Name = "j";
-            this.j.PasswordChar = '\0';
-            this.j.Radius = 15;
-            this.j.Size = new System.Drawing.Size(240, 30);
-            this.j.TabIndex = 61;
+            this.hc.BackColor = System.Drawing.Color.Transparent;
+            this.hc.BaseColor = System.Drawing.Color.White;
+            this.hc.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.hc.BorderSize = 1;
+            this.hc.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.hc.FocusedBaseColor = System.Drawing.Color.White;
+            this.hc.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.hc.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.hc.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hc.Location = new System.Drawing.Point(273, 175);
+            this.hc.Name = "hc";
+            this.hc.PasswordChar = '\0';
+            this.hc.Radius = 15;
+            this.hc.Size = new System.Drawing.Size(240, 30);
+            this.hc.TabIndex = 61;
             // 
             // label12
             // 
@@ -378,82 +355,82 @@
             this.label2.TabIndex = 50;
             this.label2.Text = "Nombre des foeutis";
             // 
-            // i
+            // bip
             // 
-            this.i.BackColor = System.Drawing.Color.Transparent;
-            this.i.BaseColor = System.Drawing.Color.White;
-            this.i.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.i.BorderSize = 1;
-            this.i.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.i.FocusedBaseColor = System.Drawing.Color.White;
-            this.i.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.i.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.i.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i.Location = new System.Drawing.Point(273, 121);
-            this.i.Name = "i";
-            this.i.PasswordChar = '\0';
-            this.i.Radius = 15;
-            this.i.Size = new System.Drawing.Size(240, 30);
-            this.i.TabIndex = 49;
+            this.bip.BackColor = System.Drawing.Color.Transparent;
+            this.bip.BaseColor = System.Drawing.Color.White;
+            this.bip.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.bip.BorderSize = 1;
+            this.bip.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bip.FocusedBaseColor = System.Drawing.Color.White;
+            this.bip.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.bip.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.bip.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bip.Location = new System.Drawing.Point(273, 121);
+            this.bip.Name = "bip";
+            this.bip.PasswordChar = '\0';
+            this.bip.Radius = 15;
+            this.bip.Size = new System.Drawing.Size(240, 30);
+            this.bip.TabIndex = 49;
             // 
-            // p
+            // sexe
             // 
-            this.p.BackColor = System.Drawing.Color.Transparent;
-            this.p.BaseColor = System.Drawing.Color.White;
-            this.p.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.p.BorderSize = 1;
-            this.p.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.p.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.p.FocusedColor = System.Drawing.Color.Empty;
-            this.p.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p.ForeColor = System.Drawing.Color.Black;
-            this.p.FormattingEnabled = true;
-            this.p.Items.AddRange(new object[] {
+            this.sexe.BackColor = System.Drawing.Color.Transparent;
+            this.sexe.BaseColor = System.Drawing.Color.White;
+            this.sexe.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.sexe.BorderSize = 1;
+            this.sexe.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.sexe.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.sexe.FocusedColor = System.Drawing.Color.Empty;
+            this.sexe.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sexe.ForeColor = System.Drawing.Color.Black;
+            this.sexe.FormattingEnabled = true;
+            this.sexe.Items.AddRange(new object[] {
             "Feminin",
             "Masculin"});
-            this.p.Location = new System.Drawing.Point(533, 69);
-            this.p.Name = "p";
-            this.p.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.p.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.p.Radius = 15;
-            this.p.Size = new System.Drawing.Size(240, 27);
-            this.p.TabIndex = 48;
+            this.sexe.Location = new System.Drawing.Point(533, 69);
+            this.sexe.Name = "sexe";
+            this.sexe.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.sexe.OnHoverItemForeColor = System.Drawing.Color.White;
+            this.sexe.Radius = 15;
+            this.sexe.Size = new System.Drawing.Size(240, 27);
+            this.sexe.TabIndex = 48;
             // 
-            // g
+            // gs
             // 
-            this.g.BackColor = System.Drawing.Color.Transparent;
-            this.g.BaseColor = System.Drawing.Color.White;
-            this.g.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.g.BorderSize = 1;
-            this.g.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.g.FocusedBaseColor = System.Drawing.Color.White;
-            this.g.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.g.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.g.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g.Location = new System.Drawing.Point(15, 442);
-            this.g.Name = "g";
-            this.g.PasswordChar = '\0';
-            this.g.Radius = 15;
-            this.g.Size = new System.Drawing.Size(240, 30);
-            this.g.TabIndex = 47;
+            this.gs.BackColor = System.Drawing.Color.Transparent;
+            this.gs.BaseColor = System.Drawing.Color.White;
+            this.gs.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.gs.BorderSize = 1;
+            this.gs.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gs.FocusedBaseColor = System.Drawing.Color.White;
+            this.gs.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gs.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.gs.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gs.Location = new System.Drawing.Point(15, 442);
+            this.gs.Name = "gs";
+            this.gs.PasswordChar = '\0';
+            this.gs.Radius = 15;
+            this.gs.Size = new System.Drawing.Size(240, 30);
+            this.gs.TabIndex = 47;
             // 
-            // f
+            // mrf
             // 
-            this.f.BackColor = System.Drawing.Color.Transparent;
-            this.f.BaseColor = System.Drawing.Color.White;
-            this.f.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.f.BorderSize = 1;
-            this.f.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.f.FocusedBaseColor = System.Drawing.Color.White;
-            this.f.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.f.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.f.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f.Location = new System.Drawing.Point(15, 388);
-            this.f.Name = "f";
-            this.f.PasswordChar = '\0';
-            this.f.Radius = 15;
-            this.f.Size = new System.Drawing.Size(240, 30);
-            this.f.TabIndex = 46;
+            this.mrf.BackColor = System.Drawing.Color.Transparent;
+            this.mrf.BaseColor = System.Drawing.Color.White;
+            this.mrf.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.mrf.BorderSize = 1;
+            this.mrf.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.mrf.FocusedBaseColor = System.Drawing.Color.White;
+            this.mrf.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.mrf.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.mrf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mrf.Location = new System.Drawing.Point(15, 388);
+            this.mrf.Name = "mrf";
+            this.mrf.PasswordChar = '\0';
+            this.mrf.Radius = 15;
+            this.mrf.Size = new System.Drawing.Size(240, 30);
+            this.mrf.TabIndex = 46;
             // 
             // gunaButton3
             // 
@@ -505,83 +482,81 @@
             this.gunaButton2.Size = new System.Drawing.Size(160, 29);
             this.gunaButton2.TabIndex = 43;
             this.gunaButton2.Text = "Ajouter";
+            this.gunaButton2.Click += new System.EventHandler(this.gunaButton2_Click);
             // 
-            // y
+            // patient
             // 
-            this.y.BackColor = System.Drawing.Color.Transparent;
-            this.y.BaseColor = System.Drawing.Color.White;
-            this.y.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.y.BorderSize = 1;
-            this.y.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.y.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.y.FocusedColor = System.Drawing.Color.Empty;
-            this.y.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.y.ForeColor = System.Drawing.Color.Black;
-            this.y.FormattingEnabled = true;
-            this.y.Items.AddRange(new object[] {
-            "Feminin",
-            "Masculin"});
-            this.y.Location = new System.Drawing.Point(15, 72);
-            this.y.Name = "y";
-            this.y.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.y.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.y.Radius = 15;
-            this.y.Size = new System.Drawing.Size(240, 27);
-            this.y.TabIndex = 41;
+            this.patient.BackColor = System.Drawing.Color.Transparent;
+            this.patient.BaseColor = System.Drawing.Color.White;
+            this.patient.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.patient.BorderSize = 1;
+            this.patient.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.patient.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.patient.FocusedColor = System.Drawing.Color.Empty;
+            this.patient.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.patient.ForeColor = System.Drawing.Color.Black;
+            this.patient.FormattingEnabled = true;
+            this.patient.Location = new System.Drawing.Point(15, 72);
+            this.patient.Name = "patient";
+            this.patient.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.patient.OnHoverItemForeColor = System.Drawing.Color.White;
+            this.patient.Radius = 15;
+            this.patient.Size = new System.Drawing.Size(240, 27);
+            this.patient.TabIndex = 41;
             // 
-            // c
+            // morph
             // 
-            this.c.BackColor = System.Drawing.Color.Transparent;
-            this.c.BaseColor = System.Drawing.Color.White;
-            this.c.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.c.BorderSize = 1;
-            this.c.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.c.FocusedBaseColor = System.Drawing.Color.White;
-            this.c.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.c.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.c.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c.Location = new System.Drawing.Point(15, 229);
-            this.c.Name = "c";
-            this.c.PasswordChar = '\0';
-            this.c.Radius = 15;
-            this.c.Size = new System.Drawing.Size(240, 30);
-            this.c.TabIndex = 40;
+            this.morph.BackColor = System.Drawing.Color.Transparent;
+            this.morph.BaseColor = System.Drawing.Color.White;
+            this.morph.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.morph.BorderSize = 1;
+            this.morph.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.morph.FocusedBaseColor = System.Drawing.Color.White;
+            this.morph.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.morph.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.morph.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.morph.Location = new System.Drawing.Point(15, 229);
+            this.morph.Name = "morph";
+            this.morph.PasswordChar = '\0';
+            this.morph.Radius = 15;
+            this.morph.Size = new System.Drawing.Size(240, 30);
+            this.morph.TabIndex = 40;
             // 
-            // b
+            // present
             // 
-            this.b.BackColor = System.Drawing.Color.Transparent;
-            this.b.BaseColor = System.Drawing.Color.White;
-            this.b.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.b.BorderSize = 1;
-            this.b.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.b.FocusedBaseColor = System.Drawing.Color.White;
-            this.b.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.b.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.b.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b.Location = new System.Drawing.Point(15, 175);
-            this.b.Name = "b";
-            this.b.PasswordChar = '\0';
-            this.b.Radius = 15;
-            this.b.Size = new System.Drawing.Size(240, 30);
-            this.b.TabIndex = 39;
+            this.present.BackColor = System.Drawing.Color.Transparent;
+            this.present.BaseColor = System.Drawing.Color.White;
+            this.present.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.present.BorderSize = 1;
+            this.present.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.present.FocusedBaseColor = System.Drawing.Color.White;
+            this.present.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.present.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.present.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.present.Location = new System.Drawing.Point(15, 175);
+            this.present.Name = "present";
+            this.present.PasswordChar = '\0';
+            this.present.Radius = 15;
+            this.present.Size = new System.Drawing.Size(240, 30);
+            this.present.TabIndex = 39;
             // 
-            // a
+            // nombre
             // 
-            this.a.BackColor = System.Drawing.Color.Transparent;
-            this.a.BaseColor = System.Drawing.Color.White;
-            this.a.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.a.BorderSize = 1;
-            this.a.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.a.FocusedBaseColor = System.Drawing.Color.White;
-            this.a.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.a.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.a.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a.Location = new System.Drawing.Point(15, 123);
-            this.a.Name = "a";
-            this.a.PasswordChar = '\0';
-            this.a.Radius = 15;
-            this.a.Size = new System.Drawing.Size(240, 30);
-            this.a.TabIndex = 38;
+            this.nombre.BackColor = System.Drawing.Color.Transparent;
+            this.nombre.BaseColor = System.Drawing.Color.White;
+            this.nombre.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.nombre.BorderSize = 1;
+            this.nombre.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.nombre.FocusedBaseColor = System.Drawing.Color.White;
+            this.nombre.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.nombre.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.nombre.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nombre.Location = new System.Drawing.Point(15, 123);
+            this.nombre.Name = "nombre";
+            this.nombre.PasswordChar = '\0';
+            this.nombre.Radius = 15;
+            this.nombre.Size = new System.Drawing.Size(240, 30);
+            this.nombre.TabIndex = 38;
             // 
             // label1
             // 
@@ -673,41 +648,41 @@
             this.label25.TabIndex = 80;
             this.label25.Text = "Sexe";
             // 
-            // x
+            // rendez
             // 
-            this.x.BackColor = System.Drawing.Color.Transparent;
-            this.x.BaseColor = System.Drawing.Color.White;
-            this.x.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.x.BorderSize = 1;
-            this.x.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.x.FocusedBaseColor = System.Drawing.Color.White;
-            this.x.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.x.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.x.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.x.Location = new System.Drawing.Point(533, 439);
-            this.x.Name = "x";
-            this.x.PasswordChar = '\0';
-            this.x.Radius = 15;
-            this.x.Size = new System.Drawing.Size(240, 30);
-            this.x.TabIndex = 79;
+            this.rendez.BackColor = System.Drawing.Color.Transparent;
+            this.rendez.BaseColor = System.Drawing.Color.White;
+            this.rendez.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.rendez.BorderSize = 1;
+            this.rendez.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.rendez.FocusedBaseColor = System.Drawing.Color.White;
+            this.rendez.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.rendez.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.rendez.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rendez.Location = new System.Drawing.Point(533, 439);
+            this.rendez.Name = "rendez";
+            this.rendez.PasswordChar = '\0';
+            this.rendez.Radius = 15;
+            this.rendez.Size = new System.Drawing.Size(240, 30);
+            this.rendez.TabIndex = 79;
             // 
-            // u
+            // estimat
             // 
-            this.u.BackColor = System.Drawing.Color.Transparent;
-            this.u.BaseColor = System.Drawing.Color.White;
-            this.u.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.u.BorderSize = 1;
-            this.u.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.u.FocusedBaseColor = System.Drawing.Color.White;
-            this.u.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.u.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.u.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.u.Location = new System.Drawing.Point(533, 334);
-            this.u.Name = "u";
-            this.u.PasswordChar = '\0';
-            this.u.Radius = 15;
-            this.u.Size = new System.Drawing.Size(240, 30);
-            this.u.TabIndex = 78;
+            this.estimat.BackColor = System.Drawing.Color.Transparent;
+            this.estimat.BaseColor = System.Drawing.Color.White;
+            this.estimat.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.estimat.BorderSize = 1;
+            this.estimat.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.estimat.FocusedBaseColor = System.Drawing.Color.White;
+            this.estimat.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.estimat.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.estimat.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.estimat.Location = new System.Drawing.Point(533, 334);
+            this.estimat.Name = "estimat";
+            this.estimat.PasswordChar = '\0';
+            this.estimat.Radius = 15;
+            this.estimat.Size = new System.Drawing.Size(240, 30);
+            this.estimat.TabIndex = 78;
             // 
             // v
             // 
@@ -734,154 +709,131 @@
             this.v.Text = "mardi 24 septembre 2024";
             this.v.Value = new System.DateTime(2024, 9, 24, 22, 59, 15, 262);
             // 
-            // s
+            // cordon
             // 
-            this.s.BackColor = System.Drawing.Color.Transparent;
-            this.s.BaseColor = System.Drawing.Color.White;
-            this.s.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.s.BorderSize = 1;
-            this.s.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.s.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.s.FocusedColor = System.Drawing.Color.Empty;
-            this.s.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.s.ForeColor = System.Drawing.Color.Black;
-            this.s.FormattingEnabled = true;
-            this.s.Items.AddRange(new object[] {
-            "Feminin",
-            "Masculin"});
-            this.s.Location = new System.Drawing.Point(533, 229);
-            this.s.Name = "s";
-            this.s.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.s.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.s.Radius = 15;
-            this.s.Size = new System.Drawing.Size(240, 27);
-            this.s.TabIndex = 75;
+            this.cordon.BackColor = System.Drawing.Color.Transparent;
+            this.cordon.BaseColor = System.Drawing.Color.White;
+            this.cordon.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.cordon.BorderSize = 1;
+            this.cordon.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cordon.FocusedBaseColor = System.Drawing.Color.White;
+            this.cordon.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.cordon.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.cordon.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cordon.Location = new System.Drawing.Point(533, 175);
+            this.cordon.Name = "cordon";
+            this.cordon.PasswordChar = '\0';
+            this.cordon.Radius = 15;
+            this.cordon.Size = new System.Drawing.Size(240, 30);
+            this.cordon.TabIndex = 74;
             // 
-            // r
+            // la
             // 
-            this.r.BackColor = System.Drawing.Color.Transparent;
-            this.r.BaseColor = System.Drawing.Color.White;
-            this.r.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.r.BorderSize = 1;
-            this.r.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.r.FocusedBaseColor = System.Drawing.Color.White;
-            this.r.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.r.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.r.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.r.Location = new System.Drawing.Point(533, 175);
-            this.r.Name = "r";
-            this.r.PasswordChar = '\0';
-            this.r.Radius = 15;
-            this.r.Size = new System.Drawing.Size(240, 30);
-            this.r.TabIndex = 74;
+            this.la.BackColor = System.Drawing.Color.Transparent;
+            this.la.BaseColor = System.Drawing.Color.White;
+            this.la.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.la.BorderSize = 1;
+            this.la.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.la.FocusedBaseColor = System.Drawing.Color.White;
+            this.la.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.la.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.la.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.la.Location = new System.Drawing.Point(533, 121);
+            this.la.Name = "la";
+            this.la.PasswordChar = '\0';
+            this.la.Radius = 15;
+            this.la.Size = new System.Drawing.Size(240, 30);
+            this.la.TabIndex = 73;
             // 
-            // q
+            // lec
             // 
-            this.q.BackColor = System.Drawing.Color.Transparent;
-            this.q.BaseColor = System.Drawing.Color.White;
-            this.q.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.q.BorderSize = 1;
-            this.q.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.q.FocusedBaseColor = System.Drawing.Color.White;
-            this.q.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.q.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.q.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.q.Location = new System.Drawing.Point(533, 121);
-            this.q.Name = "q";
-            this.q.PasswordChar = '\0';
-            this.q.Radius = 15;
-            this.q.Size = new System.Drawing.Size(240, 30);
-            this.q.TabIndex = 73;
+            this.lec.BackColor = System.Drawing.Color.Transparent;
+            this.lec.BaseColor = System.Drawing.Color.White;
+            this.lec.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.lec.BorderSize = 1;
+            this.lec.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lec.FocusedBaseColor = System.Drawing.Color.White;
+            this.lec.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.lec.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.lec.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lec.Location = new System.Drawing.Point(273, 69);
+            this.lec.Name = "lec";
+            this.lec.PasswordChar = '\0';
+            this.lec.Radius = 15;
+            this.lec.Size = new System.Drawing.Size(240, 30);
+            this.lec.TabIndex = 72;
             // 
-            // h
+            // autres
             // 
-            this.h.BackColor = System.Drawing.Color.Transparent;
-            this.h.BaseColor = System.Drawing.Color.White;
-            this.h.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.h.BorderSize = 1;
-            this.h.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.h.FocusedBaseColor = System.Drawing.Color.White;
-            this.h.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.h.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.h.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h.Location = new System.Drawing.Point(273, 69);
-            this.h.Name = "h";
-            this.h.PasswordChar = '\0';
-            this.h.Radius = 15;
-            this.h.Size = new System.Drawing.Size(240, 30);
-            this.h.TabIndex = 72;
+            this.autres.BackColor = System.Drawing.Color.Transparent;
+            this.autres.BaseColor = System.Drawing.Color.White;
+            this.autres.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.autres.BorderSize = 1;
+            this.autres.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.autres.FocusedBaseColor = System.Drawing.Color.White;
+            this.autres.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.autres.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.autres.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.autres.Location = new System.Drawing.Point(533, 283);
+            this.autres.Name = "autres";
+            this.autres.PasswordChar = '\0';
+            this.autres.Radius = 15;
+            this.autres.Size = new System.Drawing.Size(240, 30);
+            this.autres.TabIndex = 88;
             // 
-            // t
+            // mfa
             // 
-            this.t.BackColor = System.Drawing.Color.Transparent;
-            this.t.BaseColor = System.Drawing.Color.White;
-            this.t.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.t.BorderSize = 1;
-            this.t.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.t.FocusedBaseColor = System.Drawing.Color.White;
-            this.t.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.t.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.t.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.t.Location = new System.Drawing.Point(533, 283);
-            this.t.Name = "t";
-            this.t.PasswordChar = '\0';
-            this.t.Radius = 15;
-            this.t.Size = new System.Drawing.Size(240, 30);
-            this.t.TabIndex = 88;
+            this.mfa.BackColor = System.Drawing.Color.Transparent;
+            this.mfa.BaseColor = System.Drawing.Color.White;
+            this.mfa.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.mfa.BorderSize = 1;
+            this.mfa.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.mfa.FocusedBaseColor = System.Drawing.Color.White;
+            this.mfa.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.mfa.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.mfa.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mfa.Location = new System.Drawing.Point(15, 334);
+            this.mfa.Name = "mfa";
+            this.mfa.PasswordChar = '\0';
+            this.mfa.Radius = 15;
+            this.mfa.Size = new System.Drawing.Size(240, 30);
+            this.mfa.TabIndex = 90;
             // 
-            // e
+            // bcf
             // 
-            this.e.BackColor = System.Drawing.Color.Transparent;
-            this.e.BaseColor = System.Drawing.Color.White;
-            this.e.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.e.BorderSize = 1;
-            this.e.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.e.FocusedBaseColor = System.Drawing.Color.White;
-            this.e.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.e.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.e.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e.Location = new System.Drawing.Point(15, 334);
-            this.e.Name = "e";
-            this.e.PasswordChar = '\0';
-            this.e.Radius = 15;
-            this.e.Size = new System.Drawing.Size(240, 30);
-            this.e.TabIndex = 90;
+            this.bcf.BackColor = System.Drawing.Color.Transparent;
+            this.bcf.BaseColor = System.Drawing.Color.White;
+            this.bcf.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.bcf.BorderSize = 1;
+            this.bcf.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bcf.FocusedBaseColor = System.Drawing.Color.White;
+            this.bcf.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.bcf.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.bcf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bcf.Location = new System.Drawing.Point(15, 280);
+            this.bcf.Name = "bcf";
+            this.bcf.PasswordChar = '\0';
+            this.bcf.Radius = 15;
+            this.bcf.Size = new System.Drawing.Size(240, 30);
+            this.bcf.TabIndex = 89;
             // 
-            // d
+            // agesta
             // 
-            this.d.BackColor = System.Drawing.Color.Transparent;
-            this.d.BaseColor = System.Drawing.Color.White;
-            this.d.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.d.BorderSize = 1;
-            this.d.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.d.FocusedBaseColor = System.Drawing.Color.White;
-            this.d.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.d.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.d.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d.Location = new System.Drawing.Point(15, 280);
-            this.d.Name = "d";
-            this.d.PasswordChar = '\0';
-            this.d.Radius = 15;
-            this.d.Size = new System.Drawing.Size(240, 30);
-            this.d.TabIndex = 89;
-            // 
-            // l
-            // 
-            this.l.BackColor = System.Drawing.Color.Transparent;
-            this.l.BaseColor = System.Drawing.Color.White;
-            this.l.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
-            this.l.BorderSize = 1;
-            this.l.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.l.FocusedBaseColor = System.Drawing.Color.White;
-            this.l.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.l.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.l.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l.Location = new System.Drawing.Point(273, 283);
-            this.l.Name = "l";
-            this.l.PasswordChar = '\0';
-            this.l.Radius = 15;
-            this.l.Size = new System.Drawing.Size(240, 30);
-            this.l.TabIndex = 91;
+            this.agesta.BackColor = System.Drawing.Color.Transparent;
+            this.agesta.BaseColor = System.Drawing.Color.White;
+            this.agesta.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.agesta.BorderSize = 1;
+            this.agesta.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.agesta.FocusedBaseColor = System.Drawing.Color.White;
+            this.agesta.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.agesta.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.agesta.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agesta.Location = new System.Drawing.Point(273, 283);
+            this.agesta.Name = "agesta";
+            this.agesta.PasswordChar = '\0';
+            this.agesta.Radius = 15;
+            this.agesta.Size = new System.Drawing.Size(240, 30);
+            this.agesta.TabIndex = 91;
             // 
             // button1
             // 
@@ -896,16 +848,54 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // dpa
+            // 
+            this.dpa.BackColor = System.Drawing.Color.Transparent;
+            this.dpa.BaseColor = System.Drawing.Color.White;
+            this.dpa.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.dpa.BorderSize = 1;
+            this.dpa.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.dpa.FocusedBaseColor = System.Drawing.Color.White;
+            this.dpa.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.dpa.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.dpa.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dpa.Location = new System.Drawing.Point(273, 334);
+            this.dpa.Name = "dpa";
+            this.dpa.PasswordChar = '\0';
+            this.dpa.Radius = 15;
+            this.dpa.Size = new System.Drawing.Size(240, 30);
+            this.dpa.TabIndex = 93;
+            // 
+            // type
+            // 
+            this.type.BackColor = System.Drawing.Color.Transparent;
+            this.type.BaseColor = System.Drawing.Color.White;
+            this.type.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(70)))), ((int)(((byte)(105)))));
+            this.type.BorderSize = 1;
+            this.type.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.type.FocusedBaseColor = System.Drawing.Color.White;
+            this.type.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.type.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.type.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.type.Location = new System.Drawing.Point(533, 229);
+            this.type.Name = "type";
+            this.type.PasswordChar = '\0';
+            this.type.Radius = 15;
+            this.type.Size = new System.Drawing.Size(240, 30);
+            this.type.TabIndex = 94;
+            // 
             // echo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 518);
+            this.Controls.Add(this.type);
+            this.Controls.Add(this.dpa);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.l);
-            this.Controls.Add(this.e);
-            this.Controls.Add(this.d);
-            this.Controls.Add(this.t);
+            this.Controls.Add(this.agesta);
+            this.Controls.Add(this.mfa);
+            this.Controls.Add(this.bcf);
+            this.Controls.Add(this.autres);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label20);
@@ -914,23 +904,21 @@
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label25);
-            this.Controls.Add(this.x);
-            this.Controls.Add(this.u);
+            this.Controls.Add(this.rendez);
+            this.Controls.Add(this.estimat);
             this.Controls.Add(this.v);
-            this.Controls.Add(this.s);
-            this.Controls.Add(this.r);
-            this.Controls.Add(this.q);
-            this.Controls.Add(this.h);
+            this.Controls.Add(this.cordon);
+            this.Controls.Add(this.la);
+            this.Controls.Add(this.lec);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.o);
-            this.Controls.Add(this.n);
-            this.Controls.Add(this.k);
-            this.Controls.Add(this.m);
-            this.Controls.Add(this.j);
+            this.Controls.Add(this.placent);
+            this.Controls.Add(this.poids);
+            this.Controls.Add(this.fl);
+            this.Controls.Add(this.hc);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -942,16 +930,16 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.i);
-            this.Controls.Add(this.p);
-            this.Controls.Add(this.g);
-            this.Controls.Add(this.f);
+            this.Controls.Add(this.bip);
+            this.Controls.Add(this.sexe);
+            this.Controls.Add(this.gs);
+            this.Controls.Add(this.mrf);
             this.Controls.Add(this.gunaButton3);
             this.Controls.Add(this.gunaButton2);
-            this.Controls.Add(this.y);
-            this.Controls.Add(this.c);
-            this.Controls.Add(this.b);
-            this.Controls.Add(this.a);
+            this.Controls.Add(this.patient);
+            this.Controls.Add(this.morph);
+            this.Controls.Add(this.present);
+            this.Controls.Add(this.nombre);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -961,6 +949,7 @@
             this.Name = "echo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "echo";
+            this.Load += new System.EventHandler(this.echo_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -977,11 +966,10 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
-        private Guna.UI.WinForms.GunaTextBox o;
-        private Guna.UI.WinForms.GunaTextBox n;
-        private Guna.UI.WinForms.GunaTextBox k;
-        private Guna.UI.WinForms.GunaComboBox m;
-        private Guna.UI.WinForms.GunaTextBox j;
+        private Guna.UI.WinForms.GunaTextBox placent;
+        private Guna.UI.WinForms.GunaTextBox poids;
+        private Guna.UI.WinForms.GunaTextBox fl;
+        private Guna.UI.WinForms.GunaTextBox hc;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
@@ -993,16 +981,16 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private Guna.UI.WinForms.GunaTextBox i;
-        private Guna.UI.WinForms.GunaComboBox p;
-        private Guna.UI.WinForms.GunaTextBox g;
-        private Guna.UI.WinForms.GunaTextBox f;
+        private Guna.UI.WinForms.GunaTextBox bip;
+        private Guna.UI.WinForms.GunaComboBox sexe;
+        private Guna.UI.WinForms.GunaTextBox gs;
+        private Guna.UI.WinForms.GunaTextBox mrf;
         private Guna.UI.WinForms.GunaButton gunaButton3;
         private Guna.UI.WinForms.GunaButton gunaButton2;
-        private Guna.UI.WinForms.GunaComboBox y;
-        private Guna.UI.WinForms.GunaTextBox c;
-        private Guna.UI.WinForms.GunaTextBox b;
-        private Guna.UI.WinForms.GunaTextBox a;
+        private Guna.UI.WinForms.GunaComboBox patient;
+        private Guna.UI.WinForms.GunaTextBox morph;
+        private Guna.UI.WinForms.GunaTextBox present;
+        private Guna.UI.WinForms.GunaTextBox nombre;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
@@ -1012,17 +1000,18 @@
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
-        private Guna.UI.WinForms.GunaTextBox x;
-        private Guna.UI.WinForms.GunaTextBox u;
+        private Guna.UI.WinForms.GunaTextBox rendez;
+        private Guna.UI.WinForms.GunaTextBox estimat;
         private Guna.UI.WinForms.GunaDateTimePicker v;
-        private Guna.UI.WinForms.GunaComboBox s;
-        private Guna.UI.WinForms.GunaTextBox r;
-        private Guna.UI.WinForms.GunaTextBox q;
-        private Guna.UI.WinForms.GunaTextBox h;
-        private Guna.UI.WinForms.GunaTextBox t;
-        private Guna.UI.WinForms.GunaTextBox e;
-        private Guna.UI.WinForms.GunaTextBox d;
-        private Guna.UI.WinForms.GunaTextBox l;
+        private Guna.UI.WinForms.GunaTextBox cordon;
+        private Guna.UI.WinForms.GunaTextBox la;
+        private Guna.UI.WinForms.GunaTextBox lec;
+        private Guna.UI.WinForms.GunaTextBox autres;
+        private Guna.UI.WinForms.GunaTextBox mfa;
+        private Guna.UI.WinForms.GunaTextBox bcf;
+        private Guna.UI.WinForms.GunaTextBox agesta;
         private System.Windows.Forms.Button button1;
+        private Guna.UI.WinForms.GunaTextBox dpa;
+        private Guna.UI.WinForms.GunaTextBox type;
     }
 }

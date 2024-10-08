@@ -41,7 +41,6 @@
             this.Prenom = new Guna.UI.WinForms.GunaTextBox();
             this.sexe = new Guna.UI.WinForms.GunaComboBox();
             this.Etat = new Guna.UI.WinForms.GunaComboBox();
-            this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
             this.date = new Guna.UI.WinForms.GunaDateTimePicker();
             this.Adresse = new Guna.UI.WinForms.GunaTextBox();
@@ -260,31 +259,6 @@
             this.Etat.Size = new System.Drawing.Size(240, 27);
             this.Etat.TabIndex = 6;
             // 
-            // gunaButton3
-            // 
-            this.gunaButton3.AnimationHoverSpeed = 0.07F;
-            this.gunaButton3.AnimationSpeed = 0.03F;
-            this.gunaButton3.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(30)))), ((int)(((byte)(51)))));
-            this.gunaButton3.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton3.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton3.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaButton3.ForeColor = System.Drawing.Color.White;
-            this.gunaButton3.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton3.Image")));
-            this.gunaButton3.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton3.Location = new System.Drawing.Point(347, 473);
-            this.gunaButton3.Name = "gunaButton3";
-            this.gunaButton3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton3.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton3.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton3.OnHoverImage = null;
-            this.gunaButton3.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton3.Radius = 15;
-            this.gunaButton3.Size = new System.Drawing.Size(160, 29);
-            this.gunaButton3.TabIndex = 8;
-            this.gunaButton3.Text = "Annuler";
-            // 
             // gunaButton2
             // 
             this.gunaButton2.AnimationHoverSpeed = 0.07F;
@@ -298,7 +272,7 @@
             this.gunaButton2.ForeColor = System.Drawing.Color.White;
             this.gunaButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton2.Image")));
             this.gunaButton2.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton2.Location = new System.Drawing.Point(92, 473);
+            this.gunaButton2.Location = new System.Drawing.Point(182, 473);
             this.gunaButton2.Name = "gunaButton2";
             this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -306,9 +280,9 @@
             this.gunaButton2.OnHoverImage = null;
             this.gunaButton2.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton2.Radius = 15;
-            this.gunaButton2.Size = new System.Drawing.Size(160, 29);
+            this.gunaButton2.Size = new System.Drawing.Size(148, 29);
             this.gunaButton2.TabIndex = 7;
-            this.gunaButton2.Text = "Ajouter";
+            this.gunaButton2.Text = "Confirmer";
             this.gunaButton2.Click += new System.EventHandler(this.gunaButton2_Click);
             // 
             // date
@@ -911,7 +885,6 @@
             this.Controls.Add(this.Adresse);
             this.Controls.Add(this.Lieu);
             this.Controls.Add(this.date);
-            this.Controls.Add(this.gunaButton3);
             this.Controls.Add(this.gunaButton2);
             this.Controls.Add(this.Etat);
             this.Controls.Add(this.sexe);
@@ -949,7 +922,6 @@
         private Guna.UI.WinForms.GunaTextBox Prenom;
         private Guna.UI.WinForms.GunaComboBox sexe;
         private Guna.UI.WinForms.GunaComboBox Etat;
-        private Guna.UI.WinForms.GunaButton gunaButton3;
         private Guna.UI.WinForms.GunaButton gunaButton2;
         private Guna.UI.WinForms.GunaDateTimePicker date;
         private Guna.UI.WinForms.GunaTextBox Adresse;

@@ -35,7 +35,7 @@ namespace Home.dialogues
 
         }
         int ID;
-        public void charger(string n, string post, string pr, string et, string se, string da, string li, string ad, string tel, string em, string gr, string pro, string rel, string me, string re, string ty, string na, string vi,  int idi)
+        public void charger(string n, string post, string pr, string et, string se, string da, string li, string ad, string tel, string em, string gr, string pro, string rel, string me, string re, string ty, string na, string vi,  int idi, byte []  photo)
         {
             Nom.Text = n;
             Postnom.Text = post;
@@ -57,10 +57,10 @@ namespace Home.dialogues
             Residence.Text = vi;
             ID = idi;
 
-            //MemoryStream ms = new MemoryStream();
-            //byte[] picture = photo;
-            //ms.Write(picture, 0, picture.Length);
-            //gunaPictureBox1.Image = new System.Drawing.Bitmap(ms);
+            MemoryStream ms = new MemoryStream();
+            byte [] picture = photo;
+            ms.Write(picture, 0, picture.Length);
+            gunaPictureBox1.Image = new System.Drawing.Bitmap(ms);
         }
 
         private void gunaButton4_Click(object sender, EventArgs e)

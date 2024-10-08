@@ -26,6 +26,17 @@ namespace Home.userControl
         private void aptitude_Load(object sender, EventArgs e)
         {
             traitement.getinstance().chargementdatagrid(dataGridView1, "select * from v_aptitude");
+            traitement.getinstance().chargementcb1(patient, "nom", "postnom", "prenom", "patient");
+        }
+
+        private void gunaButton2_Click(object sender, EventArgs e)
+        {
+            traitement.getinstance().aptitudeP(taille,poids,pt,etat,conc,val,patient, "select * from v_aptitude", dataGridView1,"Reussi","Echec ");
+        }
+
+        private void gunaButton3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -118,11 +118,29 @@
     <Compile Include="userControl\Deces.Designer.cs">
       <DependentUpon>Deces.cs</DependentUpon>
     </Compile>
+    <Compile Include="userControl\Echostandard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userControl\Echostandard.Designer.cs">
+      <DependentUpon>Echostandard.cs</DependentUpon>
+    </Compile>
     <Compile Include="userControl\Ecographie.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="userControl\Ecographie.Designer.cs">
       <DependentUpon>Ecographie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userControl\Examenprenuptiaux.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userControl\Examenprenuptiaux.Designer.cs">
+      <DependentUpon>Examenprenuptiaux.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userControl\Hospitalisation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userControl\Hospitalisation.Designer.cs">
+      <DependentUpon>Hospitalisation.cs</DependentUpon>
     </Compile>
     <Compile Include="userControl\Imagerie.cs">
       <SubType>UserControl</SubType>
@@ -136,6 +154,12 @@
     <Compile Include="userControl\laboratoire.Designer.cs">
       <DependentUpon>laboratoire.cs</DependentUpon>
     </Compile>
+    <Compile Include="userControl\Medicament.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userControl\Medicament.Designer.cs">
+      <DependentUpon>Medicament.cs</DependentUpon>
+    </Compile>
     <Compile Include="userControl\naissance.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -147,6 +171,12 @@
     </Compile>
     <Compile Include="userControl\Note.Designer.cs">
       <DependentUpon>Note.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userControl\Ordonnance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userControl\Ordonnance.Designer.cs">
+      <DependentUpon>Ordonnance.cs</DependentUpon>
     </Compile>
     <Compile Include="userControl\patient.cs">
       <SubType>UserControl</SubType>
@@ -165,6 +195,18 @@
     </Compile>
     <Compile Include="userControl\reference.Designer.cs">
       <DependentUpon>reference.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userControl\Service.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userControl\Service.Designer.cs">
+      <DependentUpon>Service.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userControl\Suivie.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userControl\Suivie.Designer.cs">
+      <DependentUpon>Suivie.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="dialogues\Addpatient.resx">
       <DependentUpon>Addpatient.cs</DependentUpon>
@@ -196,8 +238,17 @@
     <EmbeddedResource Include="userControl\Deces.resx">
       <DependentUpon>Deces.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="userControl\Echostandard.resx">
+      <DependentUpon>Echostandard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="userControl\Ecographie.resx">
       <DependentUpon>Ecographie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userControl\Examenprenuptiaux.resx">
+      <DependentUpon>Examenprenuptiaux.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userControl\Hospitalisation.resx">
+      <DependentUpon>Hospitalisation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="userControl\Imagerie.resx">
       <DependentUpon>Imagerie.cs</DependentUpon>
@@ -205,11 +256,17 @@
     <EmbeddedResource Include="userControl\laboratoire.resx">
       <DependentUpon>laboratoire.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="userControl\Medicament.resx">
+      <DependentUpon>Medicament.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="userControl\naissance.resx">
       <DependentUpon>naissance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="userControl\Note.resx">
       <DependentUpon>Note.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userControl\Ordonnance.resx">
+      <DependentUpon>Ordonnance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="userControl\patient.resx">
       <DependentUpon>patient.cs</DependentUpon>
@@ -219,6 +276,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="userControl\reference.resx">
       <DependentUpon>reference.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userControl\Service.resx">
+      <DependentUpon>Service.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userControl\Suivie.resx">
+      <DependentUpon>Suivie.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

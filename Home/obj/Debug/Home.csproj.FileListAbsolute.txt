@@ -83,3 +83,127 @@ E:\Hopital\Home\obj\Debug\Home.userControl.patient.resources
 E:\Hopital\Home\obj\Debug\Home.userControl.prescription.resources
 E:\Hopital\Home\obj\Debug\Home.userControl.reference.resources
 E:\Hopital\Home\obj\Debug\Home.csproj.GenerateResource.Cache
+E:\Hopital\gestion_Hopital\Home\bin\Debug\Home.exe.config
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.exe
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.pdb
+E:\Hopital\gestion_Hopital\Home\bin\Debug\Home.exe
+E:\Hopital\gestion_Hopital\Home\bin\Debug\Home.pdb
+E:\Hopital\gestion_Hopital\Home\bin\Debug\MySql.Data.dll
+E:\Hopital\gestion_Hopital\Home\bin\Debug\MySqlConnector.dll
+E:\Hopital\gestion_Hopital\Home\bin\Debug\System.Buffers.dll
+E:\Hopital\gestion_Hopital\Home\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Hopital\gestion_Hopital\Home\bin\Debug\System.Memory.dll
+E:\Hopital\gestion_Hopital\Home\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Hopital\gestion_Hopital\Home\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Hopital\gestion_Hopital\Home\bin\Debug\MySqlConnector.xml
+E:\Hopital\gestion_Hopital\Home\bin\Debug\System.Buffers.xml
+E:\Hopital\gestion_Hopital\Home\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Hopital\gestion_Hopital\Home\bin\Debug\System.Memory.xml
+E:\Hopital\gestion_Hopital\Home\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Hopital\gestion_Hopital\Home\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.csprojResolveAssemblyReference.cache
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.dialogues.Addpatient.resources
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.dialogues.echo.resources
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.userControl.aptitude.resources
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.userControl.attestation.resources
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.userControl.consulta.resources
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.Home.resources
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.Properties.Resources.resources
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.userControl.Deces.resources
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.userControl.Ecographie.resources
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.userControl.Imagerie.resources
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.userControl.laboratoire.resources
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.userControl.naissance.resources
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.userControl.Note.resources
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.userControl.patient.resources
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.userControl.prescription.resources
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.userControl.reference.resources
+E:\Hopital\gestion_Hopital\Home\obj\Debug\Home.csproj.GenerateResource.Cache
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\bin\Debug\Home.exe.config
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\bin\Debug\Home.exe
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\bin\Debug\Home.pdb
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\bin\Debug\MySql.Data.dll
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\bin\Debug\MySqlConnector.dll
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Buffers.dll
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Memory.dll
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\bin\Debug\MySqlConnector.xml
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Buffers.xml
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Memory.xml
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.csprojAssemblyReference.cache
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.dialogues.Addpatient.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.dialogues.echo.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.aptitude.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.attestation.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.consulta.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.Home.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.Properties.Resources.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Deces.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Ecographie.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Imagerie.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.laboratoire.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.naissance.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Note.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.patient.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.prescription.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.reference.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.csproj.GenerateResource.cache
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.csproj.CoreCompileInputs.cache
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.csproj.CopyComplete
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.exe
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.pdb
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Medicament.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Echostandard.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Hospitalisation.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Ordonnance.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Examenprenuptiaux.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Service.resources
+C:\Users\armsu\3D Objects\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Suivie.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\bin\Debug\Home.exe.config
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.exe
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.pdb
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\bin\Debug\Home.exe
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\bin\Debug\Home.pdb
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\bin\Debug\MySql.Data.dll
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\bin\Debug\MySqlConnector.dll
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Buffers.dll
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Memory.dll
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\bin\Debug\MySqlConnector.xml
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Buffers.xml
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Memory.xml
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.csprojResolveAssemblyReference.cache
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.dialogues.Addpatient.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.dialogues.echo.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.aptitude.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.attestation.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.consulta.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.Home.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.Properties.Resources.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Deces.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Echostandard.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Ecographie.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Examenprenuptiaux.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Hospitalisation.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Imagerie.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.laboratoire.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Medicament.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.naissance.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Note.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Ordonnance.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.patient.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.prescription.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.reference.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Service.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.userControl.Suivie.resources
+C:\Users\Immortel\Downloads\Telegram Desktop\Nouveau dossier\Nouveau dossier\gestion_Hopital\Home\obj\Debug\Home.csproj.GenerateResource.Cache
